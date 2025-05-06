@@ -1,0 +1,9 @@
+{
+    "bankPertanyaanFile": "pertanyaan.json",
+    "jumlahPertanyaan": 5,
+    "waktuPerPertanyaan": 20,
+    "nilaiBenar": 10,
+    "nilaiSalah": 0,
+    "tema": "umum",
+    "levelKesulitan": "sedang"
+  }

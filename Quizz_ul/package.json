@@ -1,0 +1,19 @@
+{
+    "name": "ensiklopedia-kuis",
+    "version": "1.0.0",
+    "description": "Program kuis ensiklopedia berbasis terminal",
+    "main": "ensiklopedia-kuis.js",
+    "scripts": {
+      "start": "node ensiklopedia-kuis.js",
+      "test": "jest",
+      "performance": "node performance-test.js"
+    },
+    "author": "CLO2_TB_KPL",
+    "license": "MIT",
+    "dependencies": {
+      "chalk": "^4.1.2"
+    },
+    "devDependencies": {
+      "jest": "^29.5.0"
+    }
+  }
