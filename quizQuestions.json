@@ -1,0 +1,86 @@
+
+{
+    "categories": {
+      "programming": {
+        "name": "Pemrograman",
+        "description": "Pertanyaan seputar pemrograman dan algoritma",
+        "questions": {
+          "easy": [
+            {
+              "id": "p1",
+              "question": "Bahasa pemrograman apa yang dikembangkan oleh Brendan Eich pada tahun 1995?",
+              "options": ["A. Java", "B. JavaScript", "C. Python", "D. C++"],
+              "correctAnswer": "B",
+              "points": 10
+            },
+            {
+              "id": "p2",
+              "question": "Apa kepanjangan dari HTML?",
+              "options": ["A. Hyper Text Markup Language", "B. High Tech Modern Language", "C. Hyper Transfer Markup Language", "D. Home Tool Markup Language"],
+              "correctAnswer": "A",
+              "points": 5
+            }
+          ],
+          "medium": [
+            {
+              "id": "p3",
+              "question": "Algoritma sorting mana yang memiliki kompleksitas waktu rata-rata O(n log n)?",
+              "options": ["A. Bubble Sort", "B. Selection Sort", "C. Quick Sort", "D. Insertion Sort"],
+              "correctAnswer": "C",
+              "points": 15
+            }
+          ],
+          "hard": [
+            {
+              "id": "p4",
+              "question": "Apa itu pattern matching dalam pemrograman fungsional?",
+              "options": ["A. Proses mencari pola dalam string", "B. Teknik untuk mendefinisikan fungsi berdasarkan struktur parameter input", "C. Algoritma untuk menghubungkan classes", "D. Metode pengujian unit"],
+              "correctAnswer": "B",
+              "points": 20
+            }
+          ]
+        }
+      },
+      "mathematics": {
+        "name": "Matematika",
+        "description": "Pertanyaan seputar matematika dan logika",
+        "questions": {
+          "easy": [
+            {
+              "id": "m1",
+              "question": "Berapa hasil dari 5 factorial (5!)?",
+              "options": ["A. 120", "B. 24", "C. 720", "D. 60"],
+              "correctAnswer": "A",
+              "points": 10
+            }
+          ],
+          "medium": [
+            {
+              "id": "m2",
+              "question": "Dalam teori himpunan, apa itu operasi irisan?",
+              "options": ["A. Semua elemen yang ada di kedua himpunan", "B. Semua elemen yang ada di salah satu himpunan", "C. Semua elemen yang ada di himpunan pertama tapi tidak di kedua", "D. Semua elemen dari kedua himpunan"],
+              "correctAnswer": "A",
+              "points": 15
+            }
+          ],
+          "hard": [
+            {
+              "id": "m3",
+              "question": "Apa teorema yang menghubungkan turunan dan integral dalam kalkulus?",
+              "options": ["A. Teorema Pythagoras", "B. Teorema Binomial", "C. Teorema Dasar Kalkulus", "D. Teorema Fermat"],
+              "correctAnswer": "C",
+              "points": 20
+            }
+          ]
+        }
+      }
+    },
+    "feedbackTable": [
+      { "threshold": 90, "message": "Luar biasa! Anda menguasai materi dengan sangat baik!" },
+      { "threshold": 75, "message": "Bagus sekali! Anda memiliki pemahaman yang baik." },
+      { "threshold": 60, "message": "Cukup baik. Teruslah belajar untuk meningkatkan pemahaman Anda." },
+      { "threshold": 40, "message": "Anda perlu belajar lebih giat untuk meningkatkan nilai Anda." },
+      { "threshold": 0, "message": "Perlu belajar ulang. Jangan menyerah!" }
+    ]
+  }
+  
